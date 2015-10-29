@@ -1,0 +1,99 @@
+html,
+body{
+    margin:0;
+    padding:0;
+}
+.nav{
+    background-color:gainsboro;
+    width:100%;
+    height:10em;
+   
+    display:inline-block;
+}
+.one{
+    float:left;
+    height:5em;
+    width:25%;
+    background-color:aqua;
+}
+div{
+    margin-top:5%;
+    text-align:center;
+    float:left;
+    display:inline-block;
+}
+.two{
+     
+    
+    height:5em;
+    width:25%;
+    background-color:red;
+}
+.three{
+    margin-top:5%;
+    padding:0;
+    height:5em;
+    width:25%;
+    background-color:rebeccapurple;
+}
+.four{
+    
+    padding:0;
+    height:5em;
+    width:25%;
+    background-color:darkgoldenrod;
+}
+.one:active{
+    background-color:black;
+}
+.two:active{
+    background-color:cadetblue;
+}
+.three:active{
+    background-color:lightpink;
+    
+}
+.four:active{
+    background-color:rebeccapurple;
+}
+.one:hover::before{
+    
+    
+    content:"-->";
+}
+.one:hover::after{
+   content:"<--"
+}
+.two:hover::before{
+    
+    
+    content:"-->";
+}
+.two:hover::after{
+   content:"<--"
+}
+.three:hover::before{
+    
+    
+    content:"-->";
+}
+.three:hover::after{
+   content:"<--"
+}
+
+.four:hover::before{
+    
+    
+    content:"-->";
+}
+.four:hover::after{
+   content:"<--"
+}
+
+
+
+
+
+
+
+
